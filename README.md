@@ -1,65 +1,71 @@
 PROJECT NAME: LANGUAASSIST
+Project Title
 
-
-PROJECT TITLE: Local Language Learning Assistant using NLP, LLM & AI
+LanguaAssist – A Local Language AI Learning Assistant Powered by NLP and LLMs
 
 Problem Statement
 
-Most digital learning platforms operate in English, creating a major barrier for users who primarily speak Indian regional languages, limiting access to education, skills, and opportunities.
+A large portion of digital learning platforms operate primarily in English, creating a significant accessibility gap for individuals who speak Indian regional languages. This language barrier restricts access to education, skill development, and professional growth opportunities.
 
-Solution
+Proposed Solution
 
-LanguaAssist is a voice-first AI learning assistant that translates spoken regional languages into English in real time, while also providing confidence feedback to support inclusive and effective learning.
+LanguaAssist is a voice-enabled AI learning assistant designed to bridge the language gap. It captures spoken input in Indian regional languages, translates it into English in real time, and provides contextual feedback to help users improve their confidence and communication skills.
 
-USP (Unique Selling Points)
+Key Features & Unique Value Proposition
 
-Voice-based interaction in Indian regional languages
+🎙️ Voice-first interaction in Indian regional languages
 
-LLM-powered translation with confidence evaluation
+🤖 LLM-powered real-time translation with contextual understanding
 
-Lightweight, browser-based solution with zero installation
+📊 AI-driven confidence scoring and fluency feedback
 
-Tech Stack & AI Architecture
+🌐 Lightweight, browser-based platform requiring no installation
+
+Technology Stack & AI Architecture
 Frontend
 
 HTML5
 
 Tailwind CSS
 
-JavaScript (UI logic, state handling, animations)
+JavaScript (UI logic, state management, and animations)
 
-Backend / AI Services
+Backend & AI Services
 
 Groq API
 
-Large Language Model: LLaMA 3.3 (70B)
+LLaMA 3.3 (70B) for inference
 
-NLP & Machine Learning
+AI & NLP Capabilities
 
-NLP-based multilingual text understanding
+Multilingual natural language understanding
 
-Context-aware translation using pre-trained LLMs
+Context-aware translation using pre-trained large language models
 
-No custom model training (industry-standard inference-based AI)
+Inference-based AI architecture (no custom model training required)
 
-LLM Usage
+LLM Functional Role
 
-Translation reasoning
+Semantic translation reasoning
 
 Linguistic confidence scoring
 
-Fluency and context evaluation
+Fluency and contextual accuracy evaluation
 
-Vector Database & RAG
+Vector Database & RAG Readiness
 
-Architecture is RAG-ready for  expansion (local datasets, learning material, community knowledge)
+The architecture is designed to be Retrieval-Augmented Generation (RAG) ready, allowing future integration of:
 
-Core Logic
+Local educational datasets
 
-Web Speech API (speech-to-text)
+Structured learning materials
 
-Speech Synthesis API (English output)
+Community-driven knowledge repositories
 
-Real-time JSON parsing & AI response handling
+Core System Logic
 
+Web Speech API for speech-to-text processing
 
+Speech Synthesis API for English audio output
+
+Real-time JSON parsing and AI response orchestration
